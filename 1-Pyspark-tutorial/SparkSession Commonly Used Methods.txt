@@ -1,0 +1,21 @@
+version() – Returns the Spark version where your application is running, probably the Spark version your cluster is configured with.
+
+createDataFrame() – This creates a DataFrame from a collection and an RDD
+
+getActiveSession() – returns an active Spark session.
+
+read() – Returns an instance of DataFrameReader class, this is used to read records from csv, parquet, avro, and more file formats into DataFrame.
+
+readStream() – Returns an instance of DataStreamReader class, this is used to read streaming data. that can be used to read streaming data into DataFrame.
+
+sparkContext() – Returns a SparkContext.
+
+sql() – Returns a DataFrame after executing the SQL mentioned.
+
+sqlContext() – Returns SQLContext.
+
+stop() – Stop the current SparkContext.
+
+table() – Returns a DataFrame of a table or view.
+
+udf() – Creates a PySpark UDF to use it on DataFrame, Dataset, and SQL.
